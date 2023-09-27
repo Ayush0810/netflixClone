@@ -1,5 +1,7 @@
+import { AccordionCustomIcon } from "../../components/Accordian";
 import "./Home.css";
-
+import data from "./Data"
+import { FooterWithSitemap } from "../../components/Footer";
 function Home() {
 	return (
 		<>
@@ -127,6 +129,37 @@ function Home() {
 						</p>
 					</div>
 				</div>
+
+                <br />
+				<div className="bg-black min-h-[800px] h-auto relative bottom-[187px] flex flex-col items-center space-y-6   ">
+                <h1 className=" text-center text-white font-extrabold text-5xl inline-block mt-8">Frequently Asked Questions</h1>
+                {console.log("Hello ",data)}
+                 {data.map((value,index) =>{
+                    return (
+                        <AccordionCustomIcon key={index} value = {value}/>
+                    )
+                 })}
+                 <h1 className="text-xl text-center text-white">
+							Ready to watch? Enter your email to create or restart your
+							membership.
+						</h1>
+						<div className="flex justify-center items-center space-x-2 z-30">
+							<input
+								placeholder="Email Address"
+								className="text-start h-12 border border-black w-80 rounded-sm bg-transparent text-white"
+								type="email"
+							/>
+
+							<button className="text-center w-40 h-12 bg-red-600 text-white rounded-sm hover:bg-red-500 font-semibold">
+								Get Started{" "}
+							</button>
+						</div>
+				</div>
+                <br />
+				<div className="bg-black h-auto relative bottom-[200px] flex items-center justify-center ">
+                <FooterWithSitemap/>
+				</div>
+
 			</div>
 		</>
 	);
