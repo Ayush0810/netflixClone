@@ -9,7 +9,7 @@ function Home() {
 				<div className="flex z-40 justify-evenly space-x-96 relative top-8 bg-transparent">
 					<li className="list-none">
 						<img
-							className="w-7/12"
+							className="w-5/12 brightness-125"
 							src="https://i.ibb.co/r5krrdz/logo.png"
 							alt=""
 						/>
