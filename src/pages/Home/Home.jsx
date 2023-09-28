@@ -16,8 +16,8 @@ function Home() {
 						/>
 					</li>
 			<Link to="/signin">
-			<button className="text-center w-20 h-9 bg-red-600 text-white rounded-md hover:bg-red-500">
-						Signup
+			<button className="text-center w-20 h-9 bg-red-700 contrast-125 text-white rounded-md hover:bg-red-500">
+						Sign in 
 					</button>
 			</Link>
 				</div>
@@ -36,11 +36,11 @@ function Home() {
 						<div className="flex justify-center items-center space-x-2 z-30">
 							<input
 								placeholder="Email Address"
-								className="text-start h-10 border border-black w-72 rounded-sm bg-transparent text-white"
+								className="text-start h-10 p-3 w-72 rounded-sm bg-transparent backdrop-contrast-100 border border-y-light-green-50 text-white"
 								type="email"
 							/>
 
-							<button className="text-center w-40 h-11 bg-red-600 text-white rounded-sm hover:bg-red-500 font-semibold">
+							<button className="text-center w-40 h-10 bg-red-700 text-white rounded-sm hover:bg-red-700 contrast-125 font-semibold">
 								Get Started{" "}
 							</button>
 						</div>
@@ -149,17 +149,17 @@ function Home() {
 						<div className="flex justify-center items-center space-x-2 z-30">
 							<input
 								placeholder="Email Address"
-								className="text-start h-12 border border-black w-80 rounded-sm bg-transparent text-white"
+								className="text-start h-12 p-3 w-80 rounded-sm bg-transparent text-white backdrop-contrast-100 border border-y-light-green-50"
 								type="email"
 							/>
 
-							<button className="text-center w-40 h-12 bg-red-600 text-white rounded-sm hover:bg-red-500 font-semibold">
+							<button className="text-center w-40 h-12 bg-red-700 contrast-125 text-white rounded-sm hover:bg-red-700 font-semibold">
 								Get Started{" "}
 							</button>
 						</div>
 				</div>
                 <br />
-				<div className="bg-black h-auto relative bottom-[200px] flex items-center justify-center ">
+				<div className="bg-black h-auto relative bottom-[200px] flex items-center justify-center  ">
                 <FooterWithSitemap/>
 				</div>
 

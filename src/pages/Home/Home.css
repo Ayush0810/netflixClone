@@ -1,16 +1,18 @@
-.class{
+.class {
     font-family: 'Roboto', sans-serif;
-    width: 100%;
-    background-color: rgb(45, 44, 44);
-    overflow: hidden;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 500vh; 
+    background-color: rgb(45, 44, 44);
 }
+
 .mainHome{
     background-image:linear-gradient(
         
-        rgba(5, 9, 18, 0.568) 23.83%,
+        rgba(0,0,0, 0.668) 23.83%,
         rgba(0, 0, 0, 0.817) 96.1%
-      ),url("C:\ProgramData\ASUS\ASUS Live Update\Temp\RESUME LEVEL PORJECTS\movies app\src\assets\bgimg.jpg");
+      ),url("../../assets/bgimg.jpg");
 }
