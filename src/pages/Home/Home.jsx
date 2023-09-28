@@ -2,6 +2,7 @@ import { AccordionCustomIcon } from "../../components/Accordian";
 import "./Home.css";
 import data from "./Data"
 import { FooterWithSitemap } from "../../components/Footer";
+import { Link } from "react-router-dom";
 function Home() {
 	return (
 		<>
@@ -14,9 +15,11 @@ function Home() {
 							alt=""
 						/>
 					</li>
-					<button className="text-center w-20 h-9 bg-red-600 text-white rounded-md hover:bg-red-500">
+			<Link to="/signin">
+			<button className="text-center w-20 h-9 bg-red-600 text-white rounded-md hover:bg-red-500">
 						Signup
 					</button>
+			</Link>
 				</div>
 				<div className=" relative bottom-64 h-screen bg-cover mainHome scale-125">
 					<div className="flex-col items-center justify-center relative top-[29rem] space-y-3">
